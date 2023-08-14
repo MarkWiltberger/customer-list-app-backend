@@ -21,7 +21,7 @@ export class CustomerService {
   }
   // post a single customer
   async addCustomer(createCustomerDTO: CreateCustomerDTO): Promise<Customer> {
-    const newCustomer = await this.customerModel(createCustomerDTO);
+    const newCustomer = await new this.customerModel(createCustomerDTO);
     return newCustomer.save();
   }
   // Edit customer details
