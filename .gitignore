@@ -38,3 +38,6 @@ lerna-debug.log*
 .env
 .env.cloud
 .env.local
+
+# Docker file
+Dockerfile
