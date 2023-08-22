@@ -40,4 +40,5 @@ lerna-debug.log*
 .env.local
 
 # Docker file
-Dockerfile
+# nope don't gitignore the Docker file!
+
