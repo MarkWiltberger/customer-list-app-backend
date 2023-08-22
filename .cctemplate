@@ -1,13 +1,13 @@
 {
-   "metadata":{
-      "version":"1"
-   },
-   "name": "customer list app backend",
-   "templates":[
+  "metadata": {
+      "version": "1"
+  },
+  "name": "customer list app backend schema",
+  "templates": [
       {
-         "path":".",
-         "name":"customer list app backend template",
-         "description":"Template for customer list app backend"
+          "path": ".",
+          "name": "customer list app backend template",
+          "description": "Template for customer list app backend"
       }
-   ]
+  ]
 }
